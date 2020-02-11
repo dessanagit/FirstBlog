@@ -1,0 +1,46 @@
+body {
+  color: #5b5656;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.padding-body {
+  padding: 0.5% 7%;
+}
+
+/* Navbar */
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  background-color: #7fcd91;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Posts*/
+p {
+  text-align: justify;
+  padding: 1% 0%;
+}
+
+.text-alignment {
+  margin-top: 4%;
+}
+
+/* Footer */
+footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8rem;
+  background-color: #f5eaea;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-alignment {
+  text-align: center;
+  padding: 0.5%;
+  margin-top: 0.4rem;
+}
