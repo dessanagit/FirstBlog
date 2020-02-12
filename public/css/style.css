@@ -1,11 +1,18 @@
 body {
   color: #5b5656;
   font-family: 'Montserrat', sans-serif;
+  background-color: white;
 }
 
-.padding-body {
+h1 {
+  font-weight: 900;
+}
+
+.padding-navBody {
   padding: 0.5% 7%;
 }
+
+br {}
 
 /* Navbar */
 .navbar {
@@ -19,13 +26,48 @@ body {
 }
 
 /* Posts*/
-p {
+.padding-head {
+  padding-top: 3%;
+}
+
+.p-posts {
   text-align: justify;
-  padding: 1% 0%;
+  padding: 1% 0;
+  line-height: 2rem;
 }
 
 .text-alignment {
   margin-top: 4%;
+  padding-bottom: 8%;
+}
+
+.paddingTop {
+  padding-top: 5%;
+}
+
+.side {
+  float: left;
+  width: 270px;
+}
+
+p.p-posts:first-letter {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #b0eacd;
+  letter-spacing: 5px;
+}
+
+p.p-posts::first-line {
+  color: #F59898;
+  text-indent: -6px;
+}
+
+/* About Me image */
+.aboutMe {
+  /* border: 1px solid black */
+  background-color: #f6eec9;
+  border-radius: 15px 50px;
+  /* margin-bottom: 1%; */
 }
 
 /* Footer */
@@ -37,10 +79,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-}
-
-.footer-alignment {
-  text-align: center;
-  padding: 0.5%;
-  margin-top: 0.4rem;
+  justify-content: center;
+  display: flex;
+  padding-top: 0.5%;
+  height: 30px;
 }
