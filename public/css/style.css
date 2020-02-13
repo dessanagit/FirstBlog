@@ -12,7 +12,9 @@ h1 {
   padding: 0.5% 7%;
 }
 
-br {}
+.container-fluid {
+  margin: 5% 0;
+}
 
 /* Navbar */
 .navbar {
@@ -64,17 +66,46 @@ p.p-posts::first-line {
 
 /* About Me image */
 .aboutMe {
-  /* border: 1px solid black */
   background-color: #f6eec9;
   border-radius: 15px 50px;
-  /* margin-bottom: 1%; */
+}
+
+/* Cards */
+.card {
+  width: 21rem;
+  margin: 0 0 5% 0;
+  border-radius: 15px;
+}
+
+.card-title {
+  color: #F59898;
+  font-weight: 700;
+}
+
+.btn-light {
+  /* font-weight: bold; */
+  background-color: #ccedd2;
+  /* background-color: #f6eec9; */
+  /* color: #F59898; */
+}
+
+.btn-light:hover {
+  background-color: #FFA500;
+}
+
+.paddingZero {
+  padding: 0 0;
+}
+
+.row {
+  margin: 0;
 }
 
 /* Footer */
 footer {
   font-family: 'Raleway', sans-serif;
   font-size: 0.8rem;
-  background-color: #f5eaea;
+  background-color: #effcef;
   position: fixed;
   left: 0;
   bottom: 0;

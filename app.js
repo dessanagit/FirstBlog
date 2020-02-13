@@ -3,7 +3,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
-
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -26,12 +25,14 @@ app.get("/", function(req, res) {
   });
 });
 
-
-
 app.get("/about", function(req, res) {
   res.render("about", {
     teste: teste
   });
+});
+
+app.get("/recipe", (req, res) => {
+  res.render("recipe");
 });
 
 app.listen(3000, function() {
